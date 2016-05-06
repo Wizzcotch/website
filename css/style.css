@@ -1,0 +1,78 @@
+.bg-1 {
+    background-color: #FAE596; /* Yellow */
+}
+
+.bg-2 {
+    background-color: #3FB0AC; /* Cyan? */
+}
+
+i.fa {
+    font-size: 100px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 500%;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20pt;
+}
+
+#aboutme {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+}
+
+body {
+    background-color: #3FB0AC; /* Cyan? */
+}
+
+div.container-fluid {
+    width: inherit;
+    height: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*div#profpic {*/
+    /*padding-left: 5cm;*/
+/*}*/
+
+img#profilepic {
+    width: 400px;
+    height: 400px;
+    border: 10px solid #5A5C51;
+    float: left;
+}
+
+/*img.curve {*/
+    /*float: left;*/
+    /*text-align: left:*/
+    /*margin-right:-4cm;*/
+    /*margin: 0;*/
+    /*border-radius: 50%;*/
+    /*shape-outside: circle(100%);*/
+    /*shape-image-threshold: 1.0;*/
+/*}*/
+#circle-shape-example p {
+    line-height: 1.8;
+}
+#circle-shape-example .curve {
+    /*width: 33%; height: auto;*/
+    /*min-width: 150px;*/
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right:2rem;
+    border-radius: 50%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+p.circle-text {
+    line-height: 1.0;
+    color: black;
+    font-size: 10pt;
+}
